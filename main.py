@@ -48,8 +48,8 @@ def takeCommand():
             return "None"
         return statement
 
-print("Loading your AI personal assistant Vector")
-speak("Vector Booting Up !")
+print("Loading your AI personal assistant FRIDAY")
+speak("FRIDAY Booting Up !")
 wishMe()
 
 if __name__=='__main__':
@@ -61,8 +61,8 @@ if __name__=='__main__':
         if statement==0:
             continue
         if "good bye" in statement or "ok bye" in statement or "stop" in statement or "shutdown" in statement or "see you later" in statement:
-            speak('Vector is shutting down')
-            print('Vector is shutting down,Good bye')
+            speak('FRIDAY is shutting down')
+            print('FRIDAY is shutting down,Good bye')
             break
         if 'wikipedia' in statement:
             speak('Searching Wikipedia...')
